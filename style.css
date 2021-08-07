@@ -79,7 +79,8 @@ html , body {
     color:black;
 }
 
-.bordureNav {
+
+.bordureNav:hover {
     border-top: 1px solid blue;
 }
 
@@ -153,6 +154,7 @@ align-items: center;
 .scalefiltres:hover {
     transform: scale(1.1);
     cursor: pointer;
+    color: #0065fc;
 }
 
 

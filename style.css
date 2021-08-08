@@ -5,6 +5,8 @@ html , body {
       
 }  
 
+
+
 .center {
     display: flex;
     justify-content: center;
@@ -79,10 +81,10 @@ html , body {
     color:black;
 }
 
-
-.bordureNav:hover {
+.bordureNav {
     border-top: 1px solid blue;
 }
+
 
 
 .margPic {
@@ -128,6 +130,9 @@ html , body {
 }
 
 
+
+
+
 /* Filtres */
 
 .margF {
@@ -154,8 +159,8 @@ align-items: center;
 .scalefiltres:hover {
     transform: scale(1.1);
     cursor: pointer;
-    color: #0065fc;
 }
+
 
 
 .IconsBack {
@@ -189,6 +194,7 @@ align-items: center;
 }
 
 
+
 /* hebergementpop*/
 .paddingtext {
     padding-right: 10px;
@@ -213,7 +219,12 @@ align-items: center;
     width: 70%;
     border-radius: 10px;
     margin-right: 20px;
-     
+    
+    
+    
+
+
+    
 }
 
 .sizepopulaires {
@@ -221,7 +232,10 @@ align-items: center;
     width: 30%;
     border-radius: 10px;
     margin-left: 20px;
-  
+    
+
+    
+    
 }
 
 .imgamina {
@@ -252,11 +266,14 @@ align-items: center;
 
 
 
+
 .padTexte {
     padding-left: 25px;
     margin-top: 50px;
     margin-bottom: 20px;
 }
+
+
 
 
 .marginbot {
@@ -331,6 +348,10 @@ transform: scale(1.1);
 }
 
 
+
+
+
+
 .marginTextepop {
  margin-right: 10px;
 }
@@ -361,6 +382,11 @@ transform: scale(1.1);
     justify-content: center;
   
 }
+
+
+
+
+
 
 
 .marginleft1 {
@@ -397,6 +423,8 @@ transform: scale(1.1);
 }
 
   
+
+
 .marginlespluspopulaires {
     margin-left: 50px;
     
@@ -451,6 +479,8 @@ transform: scale(1.1);
     transform: scale(1.05);
 }
 
+
+   
 
 .colonCenter {
 display: flex;
@@ -524,6 +554,18 @@ align-items: center;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER*/
 
 .sizeFooter {
@@ -536,17 +578,13 @@ align-items: center;
 
 .columnBetweenfoot {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
 }
 
   .paddingleffooter {
       padding-left: 35px;
-  }
-
-  .alignitemflexstart {
-     align-items: flex-start;
   }
 
 
@@ -562,6 +600,7 @@ align-items: center;
 
 
 
+
 @media screen and (max-width: 1025px) {
     
      html,body {
@@ -574,12 +613,6 @@ align-items: center;
      }
 
      /*navBar*/
-     
-     .margPic {
-         margin-left: 20px;
-         margin-top: 10px;
-     }
-
 
      .bordureNav {
          border-bottom: 1px solid blue;
@@ -609,6 +642,7 @@ align-items: center;
      .sizeLiens {
          width: 100%;
          
+        
      }
 
     
@@ -621,6 +655,8 @@ align-items: center;
     
      .divactivitésresp {
          width: 50%;
+         
+        
            
      }
          
@@ -640,6 +676,7 @@ align-items: center;
          height: 50px;
          width: 50px;
          border-radius: 10px 10px 10px 10px;
+        
          
      }
 
@@ -650,6 +687,8 @@ align-items: center;
      .deskNone {
          display: block;
      }
+
+     
 
      .bordureSearch {
         width: 330px;
@@ -663,12 +702,15 @@ align-items: center;
          
      }
 
-    
+     
+         
+
      /*Filtres*/
 
      .flexwrapfiltres {
          flex-wrap:wrap;
-          
+         
+             
      }
 
      .postionrelative {
@@ -680,7 +722,9 @@ align-items: center;
          position: absolute;
          top: -45px;
          padding-left: 5px;
-          
+         
+         
+         
      }
 
      .marGefiltresreponsive {
@@ -711,6 +755,7 @@ align-items: center;
         height: auto;
     }
 
+    
     
 
     /*popoulaires*/
@@ -749,6 +794,8 @@ align-items: center;
     }
 
     
+
+
     /*Hebergement*/
        
     .sizeHebergement {
@@ -833,7 +880,8 @@ align-items: center;
         height: auto;
         align-items: flex-start;
         padding-left: 100px;
-    
+        
+        
     }
 
     
@@ -854,6 +902,9 @@ align-items: center;
         margin-bottom: -1px;
     }
 
+    
+
+    
 
 }
 
@@ -868,6 +919,7 @@ align-items: center;
     padding-right: 90px;  
     
 }
+
 
 
 
@@ -903,6 +955,7 @@ align-items: center;
     } 
     
     
+
 }
 
 
@@ -920,11 +973,13 @@ align-items: center;
 }
 
 
+
 /*Hebergement*/
 
 .paddingresponsivehebergtitre {
     padding-left: 55px;
 }
+
 
 
   /*POPULAIRES*/
@@ -955,6 +1010,8 @@ align-items: center;
 }
 
 
+
+
   /*Activités*/
 
   .paddingactivitéstitreresp {
@@ -967,6 +1024,9 @@ align-items: center;
     .columNrespfooter {
         padding-left: 50px;
     } 
+
+
+
 
 
 

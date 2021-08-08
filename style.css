@@ -536,13 +536,17 @@ align-items: center;
 
 .columnBetweenfoot {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
 }
 
   .paddingleffooter {
       padding-left: 35px;
+  }
+
+  .alignitemflexstart {
+     align-items: flex-start;
   }
 
 
@@ -570,6 +574,12 @@ align-items: center;
      }
 
      /*navBar*/
+     
+     .margPic {
+         margin-left: 20px;
+         margin-top: 10px;
+     }
+
 
      .bordureNav {
          border-bottom: 1px solid blue;
